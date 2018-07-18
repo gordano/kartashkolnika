@@ -1,0 +1,27 @@
+idea
+.byebug_history
+guardfile.DS_Store
+
+# Ignore bundler config.
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+/node_modules
+
+.byebug_history
+/config/database.yml
+
+# Ignore IDE
+/.idea
+
+# Ignore ansible
+/public/uploads
